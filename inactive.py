@@ -844,7 +844,6 @@ class InactivePanelView(ui.View):
 
     @ui.button(
         label="Взять неактив",
-        emoji="🟡",
         style=discord.ButtonStyle.primary,
         custom_id="inactive_take_button",
         row=0
@@ -892,7 +891,6 @@ class InactivePanelView(ui.View):
 
     @ui.button(
         label="Снять неактив",
-        emoji="🟢",
         style=discord.ButtonStyle.success,
         custom_id="inactive_remove_button",
         row=0
